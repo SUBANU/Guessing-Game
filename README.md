@@ -1,3 +1,3 @@
 ## GUESSING GAME
 
-## [LIVE DEMO] (https://subanu.github.io/Guessing-Game/)
+# [LIVE DEMO](https://subanu.github.io/Guessing-Game/)
