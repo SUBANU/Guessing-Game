@@ -10,15 +10,16 @@
 <body>
 <div id="wrapper">
     <div class="heading"><h1>Guessing Game</h1></div>
-    <div class="label"><h3>Enter the number <br> you have 5 chances</h3></div>
+    <div class="label"><h3>Enter the number between 1 and 100</h3></div><br>
+    <span style="color:white;font-size:large">5 chances</span><br>
     <div class ="input">
     <input type="number" id="input" min="1" max="100"> 
     </div>
     <div class="buttons">
-    <button onclick="game()">ENTER</button>
-    <button onclick="reload()">RESET</button>
+    <button onclick="game()">Enter</button>
+    <button onclick="reload()">Reset</button>
     </div>
-        <div class="result"><h4>RESULTS</h4></div> 
+        <div class="result"><h4>Results</h4></div> 
     <div class="history"></div>
 </div>
 <script src="script.js"></script> 

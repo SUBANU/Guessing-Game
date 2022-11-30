@@ -6,7 +6,7 @@ const historyDiv = document.querySelector(".history");
 
 
 historyDiv.innerHTML = "";
-
+console.log(randomNumber);
 let chances = 5;
 
 let isWin = false;
@@ -20,19 +20,19 @@ function game() {
     }else if (chances && !isWin) {
         let guess = userGuess.value;
         if (randomNumber == guess) {
-            result = "You won!";
+            result = "You won! 😉😉💫";
             isWin = true;
         } else if (randomNumber < guess) {
             if (chances == 1) {
                 result = `Game Over!<br>The Number is ${randomNumber}`;
             }else {
-                result = "You too high";
+                result = "You too high🙃";
             }
         }else {
             if (chances == 1) {
                 result = `Game Over!<br>The Number is ${randomNumber}`;
             }else {
-                result = "You too low!";
+                result = "You too low!🙃";
             }
         }
         chances--;
